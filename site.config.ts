@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'c3fba8c077f743149fe8f166165af4ed',
+  rootNotionPageId: '7536aec19f424d789cd066df691ed1ec',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://wr8.in/page-icon.png',
-  defaultPageCover: 'https://wr8.in/page-cover.jpg',
+  defaultPageIcon: '',
+  defaultPageCover: '',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -53,16 +53,16 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [   
     {
-      title: 'Blog',
-      pageId: 'd0da325342174ad0a641453bc899beda'
+      title: 'Articles',
+      pageId: 'f8c07165f74e4825bfc6f16031cbe472'
     },    
     {
       title: 'About',
-      pageId: '3eaacb6d5f7048648acc7f87544aa3fc'
+      pageId: '66d94269a0274c2ba3f148a866389cbf'
     },
     {
       title: 'Contact',
-      pageId: 'e79a170b7f95486e917f0d04e7dad518'
+      pageId: '4b73fcfa182c402bb8bf9220bd9b1a60'
     }
   ]
 })
