@@ -15,7 +15,7 @@ export default siteConfig({
   seotitle: 'Webinarrative — Master Webinars 2023, Get Started, Host & Maximize Your Impact',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: 'Discover the ultimate guide to webinars in 2023! Learn how to get started, host successful webinars, and explore the best software & hardware options to enhance your online presentations.',
 
   // social usernames (optional)
   twitter: 'webinarrative',
